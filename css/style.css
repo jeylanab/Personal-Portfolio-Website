@@ -174,7 +174,7 @@ h1 {
     border: 3px solid;
     border-radius: 15px;
     transition-delay:1s;
-    transition:all .2s ease;
+    transition:all .4s ease;
 
 }
 .work-title {
@@ -274,8 +274,18 @@ h2 {
     padding: 20px;
     border-right: 5px solid;
     border-color: chocolate;
+    transition:all .4s ease;
+
+
 
 }
+.skill-left:hover { 
+    background-color: chocolate;
+
+}
+
+
+
 .skill-right {
     display: flex;
     justify-content: center;
@@ -323,7 +333,7 @@ ul :hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 110px;
     background-color: rgb(26, 120, 146);
 
     border-top-right-radius: 30px;
@@ -345,11 +355,12 @@ ul :hover {
 
 }
 #footer-title {
+    margin-right: 75px;
     padding: 40px;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .icon {
   width: 30px;
@@ -359,3 +370,23 @@ ul a{
  font-weight: 400;
 }
 
+@media only screen and (max-width: 760px) {
+
+    a {
+        font-size: smaller;
+        margin: auto;
+
+     }
+   .logo-bar {
+            margin:auto;
+            font-size:medium;
+        }
+    .heading {
+        padding: 5px;
+    }
+     #about-me {
+        margin: auto;
+        padding-top: 5px;
+     }
+      
+}
