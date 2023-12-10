@@ -371,7 +371,12 @@ ul a{
 }
 
 @media only screen and (max-width: 760px) {
-
+    body {
+        background-color: whitesmoke;
+    }
+     #header {
+        width: 100%;
+     }
     a {
         font-size: smaller;
         margin: auto;
@@ -386,7 +391,58 @@ ul a{
     }
      #about-me {
         margin: auto;
-        padding-top: 5px;
+        padding-top: 0px;
      }
-      
+     
+    #right {
+        margin: auto;
+        font-size: smaller;
+    }
+    #works {
+        display: block;
+        margin: auto;
+        height: 200px;
+
+    }
+    #right-side {
+        margin: auto;
+
+    }
+
+  #right-side {
+    display: block;
+  }
+   .skills {
+    margin-top: 1300px;
+   }
+   .description {
+    font-size: smaller;
+   }
+   .img-2 {
+    width: 200px;
+    }
+
+
+    .footer {
+        margin-top: 100px;
+        background-color: navy;
+    }
+   .footer {
+    margin: auto;
+   }
+   .me {
+    display:none;
+   }
+   #footer-title {
+    margin: auto;
+    font-size: 15px;
+   }
+   .icon{
+    width: 20px;
+   }
+   #right-footer a {
+    font-size: small;
+   }
+    
+
 }
