@@ -413,9 +413,18 @@ ul a{
     display: block;
   }
    .skills {
-    margin-top: 1300px;
+    height: 200px;
+    margin-bottom: 200px;
+    margin-top: 1700px;
+
+    
+   }
+   .skill-left {
+    height: 200px;
+    margin-top: 200px;
    }
    .description {
+    margin-top: 200px;
     font-size: smaller;
    }
    .img-2 {
@@ -424,11 +433,11 @@ ul a{
 
 
     .footer {
-        margin-top: 100px;
+        margin-top: 400px;
         background-color: navy;
     }
-   .footer {
-    margin: auto;
+   .footer { 
+
    }
    .me {
     display:none;
