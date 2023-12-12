@@ -165,6 +165,9 @@ h1 {
     width: 75%;
     justify-content: center;
 }
+ h-1{
+    text-decoration: none;
+}
 .work-1 {
     display: flex;
     width: 100%;
@@ -235,10 +238,11 @@ h1 {
 
 }
 .work-title2 {
-    background-color: aqua;
+    background-color: rgb(93, 188, 188);
     padding: 15px;
     border-radius: 9px;
     margin: 10px;
+    box-shadow: inset;
 }
 .img-2 {
     transition: transform 0.1s ease-in-out;
