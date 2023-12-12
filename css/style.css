@@ -1,4 +1,7 @@
-
+  
+:root {
+   --bgcolor : white;
+}
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -23,10 +26,10 @@ body {
     width: 50%;
    
 }
-a { 
+ .right a { 
     font-size: larger;
     margin: 15px;
-    color: white;
+    color: var(--bgcolor);
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -186,8 +189,9 @@ h1 {
 
 
 }
-h2 {
-   
+.work-title2 a{
+    text-decoration: none;
+    color: black;
 }
 .work-title:hover {
     transform: scale(1.1);
@@ -369,8 +373,12 @@ ul a{
  font-size: medium;
  font-weight: 400;
 }
+ ul a {
+    text-decoration: none;
+    color: var(--bgcolor);
+}
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 790px) {
     body {
         background-color: whitesmoke;
     }
