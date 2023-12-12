@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is my personal website which include all my information and ways to contact me.
+My personal website includes all my information and ways to contact me.
 
 ## Installation 
 
@@ -10,8 +10,8 @@ In order to run this program on a computer we need HTML and a CSS file that is l
 
 ## Usage 
 
-Repository Link : 
-Hosted Website : 
+Repository Link: https://github.com/jeylanab/Personal-Portfolio-Website
+Hosted Website: https://jeylanab.github.io/Personal-Portfolio-Website/
 
 ##Credits
 
