@@ -168,6 +168,8 @@ h1 {
  h-1{
     text-decoration: none;
 }
+
+/* first flex of the work section for the */
 .work-1 {
     display: flex;
     width: 100%;
@@ -214,6 +216,8 @@ h1 {
     transform: scale(1.1);
 }
 
+/*second flex of the work section*/ 
+
 .work-2-3 {
     display: flex;
     align-items: flex-start;
@@ -228,7 +232,7 @@ h1 {
 
 }
 
-
+/* css code for the work 2*/
 .work-2 {
     width: 50%;
     
@@ -336,6 +340,7 @@ ul :hover {
 
 }
 
+/*css code for css of the website*/
 
 .footer {
     display: flex;
@@ -381,6 +386,8 @@ ul a{
     text-decoration: none;
     color: var(--bgcolor);
 }
+
+/*media queries of the website for medium size screen*/
 
 @media only screen and (max-width: 790px) {
     body {
@@ -459,6 +466,7 @@ ul a{
     margin: auto;
     font-size: 15px;
    }
+   /* social media website link bar css code*/
    .icon{
     width: 20px;
    }
