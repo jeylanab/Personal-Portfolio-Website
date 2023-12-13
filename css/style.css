@@ -165,6 +165,11 @@ h1 {
     width: 75%;
     justify-content: center;
 }
+ h-1{
+    text-decoration: none;
+}
+
+/* first flex of the work section for the */
 .work-1 {
     display: flex;
     width: 100%;
@@ -211,6 +216,8 @@ h1 {
     transform: scale(1.1);
 }
 
+/*second flex of the work section*/ 
+
 .work-2-3 {
     display: flex;
     align-items: flex-start;
@@ -225,7 +232,7 @@ h1 {
 
 }
 
-
+/* css code for the work 2*/
 .work-2 {
     width: 50%;
     
@@ -235,10 +242,11 @@ h1 {
 
 }
 .work-title2 {
-    background-color: aqua;
+    background-color: rgb(93, 188, 188);
     padding: 15px;
     border-radius: 9px;
     margin: 10px;
+    box-shadow: inset;
 }
 .img-2 {
     transition: transform 0.1s ease-in-out;
@@ -332,6 +340,7 @@ ul :hover {
 
 }
 
+/*css code for css of the website*/
 
 .footer {
     display: flex;
@@ -377,6 +386,8 @@ ul a{
     text-decoration: none;
     color: var(--bgcolor);
 }
+
+/*media queries of the website for medium size screen*/
 
 @media only screen and (max-width: 790px) {
     body {
@@ -455,6 +466,7 @@ ul a{
     margin: auto;
     font-size: 15px;
    }
+   /* social media website link bar css code*/
    .icon{
     width: 20px;
    }
