@@ -13,12 +13,12 @@ In order to run this program on a computer we need HTML and a CSS file that is l
 Repository Link: https://github.com/jeylanab/Personal-Portfolio-Website
 Hosted Website: https://jeylanab.github.io/Personal-Portfolio-Website/
 
-##Credits
+## Credits
 
 https://www.w3schools.com/html/html5_semantic_elements.asp 2. https://git-scm.com/docs/git
 Google, instructor Mohit 
 
 
-##License
+## License
 
 MIT licensed
